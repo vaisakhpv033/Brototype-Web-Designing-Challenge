@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Say No to Drugs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- Navbar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-white text-gray-800 shadow-md">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <h1 class="text-xl font-bold text-red-600">🚫 SayNoDrugs</h1>
+    <nav class="hidden md:flex gap-6">
+      <a href="#hero" class="hover:text-violet-600">Home</a>
+      <a href="#stats" class="hover:text-violet-600">Stats</a>
+      <a href="#blog" class="hover:text-violet-600">Empower Yourself</a>
+      <a href="#stories" class="hover:text-violet-600">Stories</a>
+      <a href="#resources" class="hover:text-violet-600">Resources</a>
+      <a href="#appointment" class="hover:text-violet-600">Appointment</a>
+    </nav>
+    <button id="menu-toggle" class="md:hidden text-gray-800 focus:outline-none">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+    </button>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+    <a href="#hero" class="block px-6 py-2 hover:bg-gray-100">Home</a>
+    <a href="#stats" class="block px-6 py-2 hover:bg-gray-100">Stats</a>
+    <a href="#blog" class="block px-6 py-2 hover:bg-gray-100">Empower Yourself</a>
+    <a href="#stories" class="block px-6 py-2 hover:bg-gray-100">Stories</a>
+    <a href="#resources" class="block px-6 py-2 hover:bg-gray-100">Resources</a>
+    <a href="#appointment" class="block px-6 py-2 hover:bg-gray-100">Appointment</a>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="hero" class="h-screen bg-cover bg-center relative" style="background-image: url('https://cdn.b12.io/client_media/a25pC37Y/b7e5ef3c-200b-11f0-b0c0-0242ac110002-jpg-hero_image.jpeg');">
+  <div class="absolute inset-0 bg-black/50"></div>
+  <div class="relative max-w-7xl mx-auto px-6 flex flex-col justify-center items-center text-center text-white h-full">
+    <h1 class="text-5xl lg:text-6xl font-bold mb-6">Join the Fight Against Drugs</h1>
+    <p class="text-lg mb-8">Together, we can say no to substance abuse.</p>
+    <a href="#stats" class="inline-block px-8 py-4 bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl transition">See the Impact</a>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section id="stats" class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-12">The Devastating Impact of Drug Abuse</h2>
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="p-8 rounded-2xl shadow-lg bg-gradient-to-br from-red-500 to-red-300 text-white">
+        <div class="text-6xl font-bold">1 in 17</div>
+        <p class="mt-4 text-lg">People worldwide use drugs</p>
+      </div>
+      <div class="p-8 rounded-2xl shadow-lg bg-gradient-to-br from-gray-700 to-gray-500 text-white">
+        <div class="text-6xl font-bold">1 in 10</div>
+        <p class="mt-4 text-lg">Have lost someone to overdose</p>
+      </div>
+      <div class="p-8 rounded-2xl shadow-lg bg-gradient-to-br from-violet-600 to-violet-400 text-white">
+        <div class="text-6xl font-bold">80%</div>
+        <p class="mt-4 text-lg">Regret their first use</p>
+      </div>
+      <div class="p-8 rounded-2xl shadow-lg bg-gradient-to-br from-green-500 to-green-300 text-white">
+        <div class="text-6xl font-bold">13.5%</div>
+        <p class="mt-4 text-lg">U.S. drug use rate</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-12">Empower Yourself</h2>
+    <p class="text-lg text-gray-600 mb-16">Join the fight against drug abuse.</p>
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-gray-50 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Awareness Campaigns" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Awareness Campaigns</h3>
+          <p class="text-gray-600">Engage in powerful campaigns that raise awareness about drug abuse.</p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-gray-50 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80" alt="Real Stories, Real Impact" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Real Stories, Real Impact</h3>
+          <p class="text-gray-600">Hear personal stories that resonate and inspire change.</p>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-gray-50 hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=800&q=80" alt="Resource Connection" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Resource Connection</h3>
+          <p class="text-gray-600">Access vital resources and support for addiction recovery.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Real Stories Section -->
+<section id="stories" class="bg-gray-50 py-20 px-6">
+  <h2 class="text-4xl font-extrabold text-gray-800 mb-12 text-center">Real Voices</h2>
+  <p class="text-lg text-gray-600 mb-16 text-center">Hear from those who overcame.</p>
+  <div class="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Card 1 -->
+    <div class="rounded-2xl shadow-lg bg-white p-6 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Brandon Vega" class="w-24 h-24 rounded-full mb-4">
+      <h3 class="text-xl font-bold text-gray-800 mb-2">Brandon Vega</h3>
+      <p class="text-sm text-violet-600 mb-4">Hope Foundation</p>
+      <p class="text-gray-600">SayNoDrugs has been an invaluable resource in my recovery journey. The community support and real stories shared by others have inspired me to stay strong and focused on my goals. I never thought I could overcome my addiction, but with their guidance, I found a way to reclaim my life. This campaign has not only helped me but also countless others who are struggling with substance abuse. I’m forever grateful for the hope and strength I gained through their programs.</p>
+    </div>
+    <!-- Card 2 -->
+    <div class="rounded-2xl shadow-lg bg-white p-6 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300">
+      <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Chris Wei" class="w-24 h-24 rounded-full mb-4">
+      <h3 class="text-xl font-bold text-gray-800 mb-2">Chris Wei</h3>
+      <p class="text-sm text-violet-600 mb-4">Kochi Health Clinic</p>
+      <p class="text-gray-600">As a healthcare professional, I have witnessed the devastating effects of drug abuse firsthand. SayNoDrugs is a game changer in raising awareness and providing essential resources for those in need. Their commitment to spreading knowledge and sharing real-life experiences resonates deeply with the community. It's empowering to see individuals take action for their health and well-being. I wholeheartedly support their mission and encourage everyone to get involved. Together, we can make a difference and combat the drug crisis in our society.</p>
+    </div>
+    <!-- Card 3 -->
+    <div class="rounded-2xl shadow-lg bg-white p-6 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300">
+      <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Anonymous" class="w-24 h-24 rounded-full mb-4">
+      <h3 class="text-xl font-bold text-gray-800 mb-2">Anonymous</h3>
+      <p class="text-sm text-violet-600 mb-4">Community Member</p>
+      <p class="text-gray-600">I stumbled upon SayNoDrugs during a particularly dark time in my life. The stories of hope and resilience inspired me to seek help and connect with others who have faced similar struggles. The resources they offer are life-changing, and I truly believe that their message can save lives. I am now actively participating in their community initiatives, sharing my journey to encourage others. It feels amazing to be part of a movement that is dedicated to fighting drug abuse and helping people heal.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Resources Section -->
+<section id="resources" class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-6">Get Help & Resources</h2>
+    <p class="text-lg text-gray-600 mb-12">Explore trusted resources to educate yourself and find support for addiction recovery and awareness.</p>
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Card 1 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-white hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://cdn.b12.io/client_media/a25pC37Y/be13a840-200b-11f0-b0c0-0242ac110002-jpg-hero_image.jpeg" alt="UN World Drug Report" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">UN World Drug Report</h3>
+          <p class="text-gray-600 mb-4">Explore global drug data and research insights to understand the worldwide impact of drug abuse.</p>
+          <a href="https://www.unodc.org/unodc/en/data-and-analysis/wdr.html" target="_blank" class="text-violet-400 hover:underline">Learn More</a>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-white hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://cdn.b12.io/client_media/a25pC37Y/bd97a90c-200b-11f0-b0c0-0242ac110002-jpg-hero_image.jpeg" alt="NIDA Help" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">NIDA Help</h3>
+          <p class="text-gray-600 mb-4">Access resources, facts, and infographics from the National Institute on Drug Abuse to stay informed.</p>
+          <a href="https://nida.nih.gov/" target="_blank" class="text-violet-400 hover:underline">Learn More</a>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="rounded-2xl shadow-lg overflow-hidden bg-white hover:shadow-2xl hover:scale-105 transition-transform duration-300">
+        <img src="https://cdn.b12.io/client_media/a25pC37Y/bdaf5bb0-200b-11f0-b0c0-0242ac110002-jpg-hero_image.jpeg" alt="SAMHSA Support" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold text-gray-800 mb-2">SAMHSA Support</h3>
+          <p class="text-gray-600 mb-4">Find treatment and support services near you through the SAMHSA National Helpline.</p>
+          <a href="https://www.samhsa.gov/" target="_blank" class="text-violet-400 hover:underline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Appointment Section -->
+<section id="appointment" class="bg-gradient-to-br from-violet-50 to-violet-100 py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-6">Schedule a Free Appointment</h2>
+    <p class="text-lg text-gray-600 mb-12">Fill out the form below, and our dedicated doctors will contact you to provide the support you need.</p>
+    <div class="max-w-4xl mx-auto bg-white p-10 rounded-3xl shadow-2xl">
+      <form action="#" method="POST" class="grid gap-6">
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div>
+            <label for="name" class="block text-sm font-semibold text-gray-800 mb-1">Full Name</label>
+            <input type="text" id="name" name="name" required class="block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-violet-500 focus:border-violet-500">
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-semibold text-gray-800 mb-1">Email Address</label>
+            <input type="email" id="email" name="email" required class="block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-violet-500 focus:border-violet-500">
+          </div>
+        </div>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div>
+            <label for="phone" class="block text-sm font-semibold text-gray-800 mb-1">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required class="block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-violet-500 focus:border-violet-500">
+          </div>
+          <div>
+            <label for="date" class="block text-sm font-semibold text-gray-800 mb-1">Preferred Date</label>
+            <input type="date" id="date" name="date" required class="block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-violet-500 focus:border-violet-500">
+          </div>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-semibold text-gray-800 mb-1">Message (Optional)</label>
+          <textarea id="message" name="message" rows="4" class="block w-full p-4 border border-gray-300 rounded-lg shadow-sm focus:ring-violet-500 focus:border-violet-500"></textarea>
+        </div>
+        <button type="submit" class="w-full py-4 px-6 bg-violet-600 text-white font-semibold rounded-lg shadow-md hover:bg-violet-700 transition-transform transform hover:scale-105">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-gradient-to-br from-gray-800 to-gray-900 text-white px-6 py-16">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+    <div>
+      <h3 class="text-xl font-bold mb-4">🚫 SayNoDrugs</h3>
+      <p class="text-sm text-gray-400">SayNoDrugs is a global movement empowering youth, families, and communities to resist drugs through education, awareness, and real-life stories of recovery. Together, we can break the cycle.</p>
+    </div>
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+      <ul class="space-y-2 text-sm text-gray-300">
+        <li><a href="#stats" class="hover:text-violet-400 transition">Stats</a></li>
+        <li><a href="#blog" class="hover:text-violet-400 transition">Empower Yourself</a></li>
+        <li><a href="#stories" class="hover:text-violet-400 transition">Stories</a></li>
+        <li><a href="#resources" class="hover:text-violet-400 transition">Resources</a></li>
+        <li><a href="#appointment" class="hover:text-violet-400 transition">Appointment</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Contact & Support</h4>
+      <ul class="text-sm text-gray-300 space-y-2">
+        <li>Email: <a href="mailto:info@saynodrugs.org" class="text-violet-400 hover:underline">info@saynodrugs.org</a></li>
+        <li>Phone: <span class="text-gray-300">1-800-555-HELP</span></li>
+        <li><a href="https://www.samhsa.gov/find-help/national-helpline" target="_blank" class="text-violet-400 hover:underline">SAMHSA National Helpline</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+      <div class="flex space-x-4">
+        <a href="#" class="text-gray-400 hover:text-violet-500 transition">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M22 12a10 10 0 1 0-11.54 9.9v-7h-2v-2.9h2V9.6c0-2 1.2-3.2 3-3.2.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.5.7-1.5 1.5v1.8h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-violet-500 transition">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 2.04c-5.5 0-9.96 4.46-9.96 9.96 0 4.42 3.58 8.07 8.12 8.93v-6.3H8.1v-2.6h2.1V9.36c0-2.1 1.2-3.26 3.1-3.26.9 0 1.9.2 1.9.2v2.1h-1.1c-1.1 0-1.5.7-1.5 1.5v1.8h2.6l-.4 2.6h-2.2v6.3c4.54-.86 8.12-4.51 8.12-8.93 0-5.5-4.46-9.96-9.96-9.96z"/></svg>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-violet-500 transition">
+          <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.373 0 12c0 5.302 3.438 9.8 8.205 11.387.6.113.82-.26.82-.577v-2.168c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.757-1.333-1.757-1.09-.745.083-.729.083-.729 1.205.085 1.84 1.24 1.84 1.24 1.07 1.835 2.807 1.305 3.492.998.107-.776.418-1.305.76-1.605-2.665-.3-5.467-1.335-5.467-5.933 0-1.312.467-2.385 1.235-3.225-.124-.302-.535-1.522.117-3.176 0 0 1.007-.323 3.3 1.23a11.47 11.47 0 0 1 3-.404 11.47 11.47 0 0 1 3 .404c2.29-1.553 3.295-1.23 3.295-1.23.654 1.654.243 2.874.12 3.176.77.84 1.23 1.913 1.23 3.225 0 4.61-2.807 5.63-5.48 5.924.43.37.81 1.103.81 2.222v3.293c0 .32.22.694.825.576A12.002 12.002 0 0 0 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
+    <p>Take a stand today. Your voice matters.</p>
+    <a href="#hero" class="inline-block mt-4 px-6 py-2 bg-violet-600 hover:bg-violet-700 text-white font-semibold rounded-xl transition">Back to Top</a>
+    <p class="mt-4">© 2025 SayNoDrugs. All rights reserved. | Built with ❤️ using Tailwind CSS</p>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  });
+</script>
+
+</body>
+</html>
